@@ -13,7 +13,7 @@ terraform {
 
 # Create an EC2 instance without a key pair and security group rules
 resource "aws_instance" "example_instance" {
-  ami                    = "ami-0ddc798b3f1a5117e"  # Replace with a valid AMI ID
+  ami                    = "ami-06b21ccaeff8cd686"  # Replace with a valid AMI ID
   instance_type          = "t2.micro"
   subnet_id              = "subnet-05f6b3cd6a8e39128"  # Use quotes around the subnet ID
   security_groups        = ["sg-030e0f2c0e7336c77"]     # Use quotes around the security group ID
